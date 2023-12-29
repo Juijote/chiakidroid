@@ -107,4 +107,25 @@
             app:title="@string/preferences_import_settings_title"
             app:icon="@drawable/ic_import"/>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="About"
+        app:title="@string/About">
+        <Preference
+            app:key="@string/ZH_key"
+            app:summary="@string/ZH_summary"
+            app:title="@string/ZH_title"/>
+
+        <Preference
+            app:key="@string/Juij_key"
+            app:summary="@string/Juij_summary"
+            app:title="@string/Juij_title"
+            app:icon="@drawable/ic_export">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://juij.eu.org/#Chiaki" />
+        </Preference>
+    </PreferenceCategory>
+
 </PreferenceScreen>
