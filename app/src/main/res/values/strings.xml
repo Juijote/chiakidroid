@@ -92,6 +92,10 @@
     <string name="preferences_rumble_enabled_summary">使用手机振动马达发出反馈音效</string>
     <string name="preferences_motion_enabled_title">运动</string>
     <string name="preferences_motion_enabled_summary">使用设备的陀螺仪传感器进行控制器运动</string>
+    <string name="preferences_button_show_enabled_title">显示/隐藏按钮</string>
+    <string name="preferences_button_show_enabled_summary">启用或禁用按钮叠加</string>
+    <string name="preferences_button_touchpad_show_enabled_title">仅触摸板</string>
+    <string name="preferences_button_touchpad_show_enabled_summary">仅显示触摸板</string>
     <string name="preferences_button_haptic_enabled_title">触摸触觉</string>
     <string name="preferences_button_haptic_enabled_summary">使用手机振动马达在按钮触摸时提供短暂的触觉反馈</string>
     <string name="alert_message_delete_registered_host">你确定要删除 ID 为 %s 的注册控制器 %s 吗？</string>
@@ -121,9 +125,9 @@
     <string name="preferences_codec_key">stream_codec</string>
 
     <!-- 汉化相关 -->
-    <string name="About">关于</string>
-    <string name="ZH_title">Chiaki v2.2.0</string>
-    <string name="ZH_summary">[Juij 汉化] [2023-12-30]</string>[
+    <string name="About_title">关于</string>
+    <string name="ZH_title">Chiaki 千秋 v2.2.0 改进版</string>
+    <string name="ZH_summary">[Juij 汉化] [2023-12-30]</string>
     <string name="Juij_title">更新下载</string>
     <string name="Juij_summary">https://juij.eu.org/#Chiaki</string>
 

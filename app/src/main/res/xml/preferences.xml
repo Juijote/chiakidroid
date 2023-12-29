@@ -109,17 +109,14 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        app:key="About"
-        app:title="@string/About">
+        app:title="@string/About_title">
         <Preference
-            app:key="@string/ZH_key"
-            app:summary="@string/ZH_summary"
-            app:title="@string/ZH_title"/>
+            app:title="@string/ZH_title"
+            app:summary="@string/ZH_summary"/>
 
         <Preference
-            app:key="@string/Juij_key"
-            app:summary="@string/Juij_summary"
             app:title="@string/Juij_title"
+            app:summary="@string/Juij_summary"
             app:icon="@drawable/ic_export">
 
             <intent
