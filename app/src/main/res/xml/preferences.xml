@@ -116,7 +116,7 @@
 
         <Preference
             app:title="@string/Juij_title"
-            app:summary="@string/Juij_summary"/>
+            app:summary="@string/Juij_summary">
 
             <intent
                 android:action="android.intent.action.VIEW"
