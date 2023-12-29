@@ -14,7 +14,7 @@ static def grepVersionComponent(content, varname) {
 def chiakiVersionMajor = grepVersionComponent(rootCMakeListsContent, "CHIAKI_VERSION_MAJOR")
 def chiakiVersionMinor = grepVersionComponent(rootCMakeListsContent, "CHIAKI_VERSION_MINOR")
 def chiakiVersionPatch = grepVersionComponent(rootCMakeListsContent, "CHIAKI_VERSION_PATCH")
-def chiakiVersion = "$chiakiVersionMajor.$chiakiVersionMinor.$chiakiVersionPatch"
+def chiakiVersion = "2.2.0-ZH"
 println("Determined Chiaki Version: $chiakiVersion")
 
 android {
@@ -105,7 +105,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-reactivestreams:2.5.1'
     implementation "io.reactivex.rxjava2:rxjava:2.2.20"
     implementation "io.reactivex.rxjava2:rxkotlin:2.4.0"
-    implementation 'io.reactivex.rxjava2:rxandroid:2.2.0-ZH'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
     def room_version = "2.5.0"
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
